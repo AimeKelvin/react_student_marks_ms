@@ -15,17 +15,37 @@ export function SignUpForm({
           <form className="p-6 md:p-8">
             <div className="flex flex-col gap-6">
               <div className="flex flex-col items-center text-center">
-                <h1 className="text-2xl font-bold">Welcome back</h1>
+                <h1 className="text-2xl font-bold">Welcome</h1>
                 <p className="text-balance text-muted-foreground">
-                  Login to your AcademiaPro account
+                  Create your AcademiaPro account
                 </p>
               </div>
+              <div className="grid gap-2">
+                <Label htmlFor="name">Name</Label>
+                <Input
+                  id="name"
+                  type="text"
+                  placeholder="Your names"
+                  required
+                />
+              </div>
+
               <div className="grid gap-2">
                 <Label htmlFor="email">Email</Label>
                 <Input
                   id="email"
                   type="email"
                   placeholder="m@example.com"
+                  required
+                />
+              </div>
+
+              <div className="grid gap-2">
+                <Label htmlFor="name">Role</Label>
+                <Input
+                  id="Role"
+                  type="name"
+                  placeholder="e.g: Admin, Student, Teacher"
                   required
                 />
               </div>
@@ -60,7 +80,7 @@ export function SignUpForm({
               </div>
               <div className="text-center text-sm">
                 Already have an account?{" "}
-                <a href="#" className="underline underline-offset-4">
+                <a href="/login" className="underline underline-offset-4">
                   Log in
                 </a>
               </div>
