@@ -9,7 +9,7 @@ export default function Home() {
       <div className="relative flex flex-col items-center justify-center min-h-screen px-6 sm:px-12 lg:px-24">
         <header className="absolute top-0 left-0 right-0 flex items-center justify-between p-6 sm:px-12 lg:px-24">
           {/* Logo */}
-          <div className="text-2xl font-bold text-gray-800">Speak</div>
+          <div className="text-2xl font-bold text-gray-800">AcademiaPro</div>
 
           {/* Navigation */}
           <nav className="hidden md:flex space-x-6 text-gray-600">
@@ -31,7 +31,7 @@ export default function Home() {
            School Management made simple with Academia<span className="text-orange-600">Pro</span>
           </h1>
           <p className="mt-6 text-lg sm:text-xl text-gray-600 max-w-xl">
-            The ultimate platform for communication, collaboration, and innovation. Experience seamless interaction today.
+            The ultimate platform for management, .
           </p>
 
           {/* Call-to-Action Buttons */}
@@ -45,21 +45,12 @@ export default function Home() {
           </div>
         </main>
 
-        {/* Supporting Illustration */}
-        <div className="mt-16 sm:mt-24 w-full">
-          <img
-            src="https://shimwa.me/chroste1.png"
-            alt="Platform Illustration"
-            className="max-w-full h-auto mx-auto"
-          />
-        
-        </div>
       </div>
 
       {/* Footer */}
       <footer className="relative mt-16 sm:mt-24 py-8 bg-gray-100 text-center">
         <p className="text-sm text-gray-500">
-          © 2024 Speak. All rights reserved.
+          © 2024 AcademiaPro. A project in dev by Aime Kelvin.
         </p>
       </footer>
     </>
